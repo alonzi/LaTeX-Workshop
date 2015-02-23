@@ -1,0 +1,51 @@
+% PREAMBLE
+\documentclass{article}
+\title{A report on the various Enterprise ships}
+\author{LCDR Data}
+\date{Stardate 46379.1}
+\usepackage{graphicx}
+
+% MAIN BODY
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Text}
+This sentence is typset normally. \emph{The sentence has emphasis.} {\bf This sentence is bold}. \textbf{This sentence is also bold.} {\Large This sentence is large.}
+
+This is a new paragraph.
+
+\section{Mathematical Equations}
+You can put math into a sentence like this, $E=mc^2$.
+\begin{equation}
+i\hbar\gamma^{\mu}\partial_{\mu}\psi-mc\psi=0.
+\end{equation}
+
+\section{Tables}
+\begin{table}[h]
+\center
+\caption{en.memory-alpha.org and en.wikipedia.org}
+\begin{tabular}{c|ccc}
+\hline
+\hline
+Enterprise & Year & Decks & Crew \\
+\hline
+A & 2286 & 21 & 430\\
+B & 2293 & & \\
+C & 2332 & & \\
+D & 2363 & 42 & 1,014\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\section{Figures}
+\begin{figure}[h]
+\center
+\includegraphics{Enterprise} %requires package
+\caption{http://en.wikipedia.org/wiki/Starship\_Enterprise\#mediaviewer\/File:Enterprise\_Forward.jpg}
+\end{figure}
+
+\end{document}
