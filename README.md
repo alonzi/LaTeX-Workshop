@@ -9,6 +9,6 @@ materials for a LaTeX workshop
 
 4. **TechPrimer.pdf**: Instructions on how to set up LaTeX on your system
 
-5. ** Reference **: Just google 'lshort'
+5. **Reference**: Just google 'lshort'
 
 
